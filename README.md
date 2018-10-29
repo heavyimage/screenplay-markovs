@@ -2,8 +2,8 @@ An unholy mashup of screenplay parsing ([jouvence](https://bolt80.com/jouvence/)
 
 I used to think markov chain output was just total nonsense but it turns out that if characters written differently enough, it's very easy to see differences in chains built from their dialog!
 
-# Example output
-(This program was built using the scripts from Star Trek: TNG; I hope it isn't overfit for that dataset...)
+# Sample Output
+This program was built using the scripts from Star Trek: TNG; I hope it isn't overfit for that dataset...
 
 > Rather than excitement or anticipation at being rescued, I sense a ... presence on the planet.
 >
@@ -25,13 +25,13 @@ I used to think markov chain output was just total nonsense but it turns out tha
 >
 > &mdash;<cite>Lwaxana Troi</cite>
 
-> You kind of enjoy it, don't look at me.
->
-> &mdash;<cite>Guinan</cite>
-
 > I have more than I dreamed possible, my brother, I spent nearly two years drifting in space.
 >
 > &mdash;<cite>Lore</cite>
+
+> You kind of enjoy it, don't look at me.
+>
+> &mdash;<cite>Guinan</cite>
 
 # Instructions
 * (pip3) install jouvence, spacy, markovify
@@ -42,17 +42,17 @@ I used to think markov chain output was just total nonsense but it turns out tha
 * Now that you've got cached per-character models, you can load them in and generate text!
 
 # Ideas:
-* use for twitter bots
-* use for 'which character guessing game'
-* use to check your own scripts for saminess; do these characters "sound" different?
+* Use for twitter bots.
+* Use for 'which character guessing game'.
+* Use to check your own scripts for saminess; do your characters "sound" different?
 
 # Caveats + Tweaks
 * Parsing scripts is not a solved problem; depending on the script quality you may get some parsing errors / stage directions that parse as character dialog.
 * The output of the chain puts spaces in some strange places, often around punctuation marks.  Fixing this is left as an exercise to the forker :-)
 * Determining which characters are important is hard based on show type / scale.  Currently, deems any character with > 100 lines a "major" character but this might be wrong.  Another approach might be to take the top N characters by number of lines.
-* There are a lot of options for how to construct models once all the text is parsed out; more reading [here](https://github.com/jsvine/markovify/blob/master/README.md)
+* There are a lot of options for how to construct models once all the text is parsed out; more reading [here](https://github.com/jsvine/markovify/blob/master/README.md).
 
 ## Resources
-* <https://joshuanewlan.com/spacy-and-markovify>
+* [SpaCy and Markovify for maximum hilarity](https://joshuanewlan.com/spacy-and-markovify)
 * [Create a twitter bot using these methods](https://github.com/cdorsey/twitter-simulator)
 * [More about spaCy](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/)
