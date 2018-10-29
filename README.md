@@ -47,7 +47,7 @@ This program was built using the scripts from Star Trek: TNG; I hope it isn't ov
 * Use to check your own scripts for saminess; do your characters "sound" different?
 
 # Caveats + Tweaks
-* Parsing scripts is not a solved problem; depending on the script quality you may get some parsing errors / stage directions that parse as character dialog.
+* Parsing scripts is not a solved problem; depending on the script quality you may get some parsing errors / stage directions that parse as character dialog.  In particular, the jouvence parser requires proper screenplay formatting -- whitespace matters and is used to help it determine the types of blocks in a script which this program relies on.
 * The output of the chain puts spaces in some strange places, often around punctuation marks.  Fixing this is left as an exercise to the forker :-)
 * Determining which characters are important is hard based on show type / scale.  Currently, deems any character with > 100 lines a "major" character but this might be wrong.  Another approach might be to take the top N characters by number of lines.
 * There are a lot of options for how to construct models once all the text is parsed out; more reading [here](https://github.com/jsvine/markovify/blob/master/README.md).
