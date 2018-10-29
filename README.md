@@ -5,17 +5,33 @@ I used to think markov chain output was just total nonsense but it turns out tha
 # Example output
 (This program was built using the scripts from Star Trek: TNG; I hope it isn't overfit for that dataset...)
 
-> I just gave my command codes to Captain Edward Jellico, Commanding Officer, USS Cairo as of this date.&mdash;<cite>Picard</cite>
-> Rather than excitement or anticipation at being rescued, I sense a ... presence on the planet.&mdash;<cite>Troi</cite>
-> But the disturbance in the atmosphere, sir.&mdash;<cite>Worf</cite>
-> If you ever need help just use one of the planets in the Mericor system.&mdash;<cite>Riker</cite>
-> I thought he should run an Ico - spectrogram run on the Selcundi Drema system.&mdash;<cite>Wesley</cite>
-> Somehow, his VISOR seems to be working again.&mdash;<cite>Dr. Crusher</cite>
-> It's tough to get accurate sensor readings ... there's no way it could affect something up on Deck Twelve.&mdash;<cite>Geordi</cite>
-> There is no nitrium present in the nose section and aft thrusters...&mdash;<cite>Computer Voice</cite>
-> You did know he's attracted to me -- his thoughts became truly pornographic.&mdash;<cite>Lwaxana Troi</cite>
-> You kind of enjoy it, don't look at me.&mdash;<cite>Guinan</cite>
-> I have more than I dreamed possible, my brother, I spent nearly two years drifting in space.&mdash;<cite>Lore</cite>
+> Rather than excitement or anticipation at being rescued, I sense a ... presence on the planet.
+>
+> &mdash;<cite>Troi</cite>
+
+> If you ever need help just use one of the planets in the Mericor system.
+>
+> &mdash;<cite>Riker</cite>
+
+> I thought he should run an Ico - spectrogram run on the Selcundi Drema system.
+>
+> &mdash;<cite>Wesley</cite>
+
+> It's tough to get accurate sensor readings ... there's no way it could affect something up on Deck Twelve.
+>
+> &mdash;<cite>Geordi</cite>
+
+> You did know he's attracted to me -- his thoughts became truly pornographic.
+>
+> &mdash;<cite>Lwaxana Troi</cite>
+
+> You kind of enjoy it, don't look at me.
+>
+> &mdash;<cite>Guinan</cite>
+
+> I have more than I dreamed possible, my brother, I spent nearly two years drifting in space.
+>
+> &mdash;<cite>Lore</cite>
 
 # Instructions
 * (pip3) install jouvence, spacy, markovify
